@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Scrape";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<form asp-action="scrape" asp-controller="Scraper">
+     <label class="label">Scrape it!</label>
+    <input type="submit" />
+</form>
